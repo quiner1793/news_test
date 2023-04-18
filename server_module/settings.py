@@ -14,7 +14,9 @@ class Settings:
     mongo_host = env.MONGO_HOST
     mongo_port = env.MONGO_PORT
     mongo_table = env.MONGO_TABLE
-    mongo_data = env.MONGO_DATA
+    mongo_words = env.MONGO_WORDS
+    mongo_forms = env.MONGO_FORMS
+
 
     news_api_key = env.NEWS_API_KEY
 
